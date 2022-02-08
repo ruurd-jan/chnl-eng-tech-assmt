@@ -30,5 +30,20 @@ namespace Chnl.Eng.Tech.Assmt.UnitTest
 
             Assert.Equal(object1Json, object2Json);
         }
+
+
+        [Fact]
+        public void SetStockOfProduct()
+        {
+            string APIurl = "https://api-dev.channelengine.net/api/v2/";
+            string APIkey = "541b989ef78ccb1bad630ea5b85c6ebff9ca3322";
+            List<Offer> offersDummy = new List<Offer>()
+                { new Offer() { MerchantProductNo = Console.ReadLine(), Stock = 25 } };
+            ProductBL productBO = new ProductBL(APIurl, APIkey);
+            var message = productBO.SetStockOfProduct(offersDummy);
+            string expectedmsg = "Updates processed without warnings";
+
+            Assert.Equal(message, expectedmsg);
+        }
     }
 }

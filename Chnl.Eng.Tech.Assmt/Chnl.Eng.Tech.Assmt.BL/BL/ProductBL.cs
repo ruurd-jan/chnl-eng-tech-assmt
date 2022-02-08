@@ -81,7 +81,27 @@ namespace Chnl.Eng.Tech.Assmt.BL.BL
             return GetProductsFromOrdersByStatus(status).OrderByDescending(p => p.Quantity).Take(5).ToList();
         }
 
+        /// <summary>
+        /// set the stock of a product to n.
+        /// </summary>
+        /// <param name="offers"></param>
+        /// <returns></returns>
+        public string SetStockOfProduct(List<Offer> offers)
+        {
+            string result;
+            try
+            {
+                Dictionary<string, string> query = new Dictionary<string, string>();
+                dynamic response = GetOperationResult<dynamic>("PUT", "offer", query, offers);
 
+                result = response.Message;
+            }
+            catch (Exception ex)
+            {
+                result = ex.Message;
+            }
+            return result;
+        }
 
         private string ParamsToString(Dictionary<string, string> urlParams)
         {

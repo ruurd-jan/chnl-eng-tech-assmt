@@ -9,5 +9,6 @@ namespace Chnl.Eng.Tech.Assmt.BL.Model
         List<Product> GetProductsFromOrdersByStatus(string status);
 
         List<Product> GetTopFive(string status);
+        string SetStockOfProduct(List<Offer> offers);
     }
 }
