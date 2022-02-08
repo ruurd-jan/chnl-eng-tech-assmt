@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Chnl.Eng.Tech.Assmt.BL\Chnl.Eng.Tech.Assmt.BL.csproj" />
+  </ItemGroup>
+
 </Project>

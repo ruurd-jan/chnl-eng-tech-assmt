@@ -1,0 +1,9 @@
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\obj\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.csprojAssemblyReference.cache
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\obj\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.AssemblyInfoInputs.cache
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\obj\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.AssemblyInfo.cs
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\obj\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.csproj.CoreCompileInputs.cache
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\bin\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.deps.json
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\bin\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.dll
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\bin\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.pdb
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\obj\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.dll
+D:\Projects\chnl-eng-tech-assmt\Chnl.Eng.Tech.Assmt\Chnl.Eng.Tech.Assmt.BL\obj\Debug\netcoreapp3.1\Chnl.Eng.Tech.Assmt.BL.pdb
