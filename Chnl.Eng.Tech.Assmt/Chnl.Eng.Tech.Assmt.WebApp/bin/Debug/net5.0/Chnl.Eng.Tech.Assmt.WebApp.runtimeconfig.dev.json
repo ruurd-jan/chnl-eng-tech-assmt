@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\svc-IPPMFarmAdm\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\svc-IPPMFarmAdm\\.nuget\\packages"
+    ]
+  }
+}

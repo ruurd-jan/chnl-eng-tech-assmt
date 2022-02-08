@@ -1,8 +1,46 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using Chnl.Eng.Tech.Assmt.BL.Model;
+
+@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Top 5 Products";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<table class="table">
+    <thead>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model => model.Gtin)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </td>
+
+        </tr>
+    </thead>
+    <tbody>
+
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @item.ProductName
+                </td>
+                <td>
+                    @item.Gtin
+                </td>
+                <td>
+                    @item.Quantity
+                </td>
+                <td><a href="#" onclick="location.href='@Url.Action("SetStockOfProduct", "Home", new { id = item.MerchantProductNo})'">Set Stock to 25</a></td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+<h4>@ViewData["Message"]</h4>
